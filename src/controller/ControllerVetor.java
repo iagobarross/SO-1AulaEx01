@@ -23,6 +23,6 @@ public class ControllerVetor {
 		double tempoFinal = System.nanoTime();
 		double tempoTotal = (tempoFinal - tempoInicial) / Math.pow(10, 9);
 		
-		System.out.println("Tempo gasto = " + tempoTotal + " seg.");
+		System.out.println("Vetor com " + numero + "ocorrências. Tempo gasto = " + tempoTotal + " seg.");
 	}
 }
